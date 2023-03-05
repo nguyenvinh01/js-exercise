@@ -1,9 +1,9 @@
 function removeFromArray(array, deleteItem) {
   // Coding here
-  const f = array.some((a)=>{
+  const check = array.some((a)=>{
     return a == deleteItem
   });
-  if(!f) return "Khong co gtrong mang";
+  if(!check) return "Khong co trong mang";
   return a = array.filter( item => item !=deleteItem)
 }
 
